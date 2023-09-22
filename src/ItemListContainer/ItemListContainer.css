@@ -1,0 +1,24 @@
+
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Card{
+    margin: 15px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+}
+.Card img{
+    min-height: 170px;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+p{
+    text-align: center;
+}
