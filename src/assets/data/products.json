@@ -1,0 +1,122 @@
+{
+    "products":[
+    {
+        "id":1,
+        "name":"BASIC SWEATER",
+        "price":50,
+        "image": "https://prettymaf.tiendada.com/api/scrooge/file/FL-4DD67ADE",
+        "category": "poleras"
+    },
+    {
+        "id":2,
+        "name":"COLORADO HOODIE",
+        "price":60,
+        "image": "https://prettymaf.tiendada.com/api/scrooge/file/FL-4BD836BA",
+        "category": "poleras"
+    },
+    {
+        "id":3,
+        "name":"POLERA ESTAMPADA CON CAPUCHA",
+        "price":50,
+        "image": "https://hmperu.vtexassets.com/arquivos/ids/3763381-483-725/Polera-estampada-con-capucha---Crema-New-York---H-M-PE.jpg?v=638257027601630000",
+        "category": "poleras"
+    },
+    {
+        "id":4,
+        "name":"POLERA OVERSIZE ESTAMPADA",
+        "price":10,
+        "image": "https://hmperu.vtexassets.com/arquivos/ids/4029398-483-725/Polera-oversize-estampada---Crema-Yale-University---H-M-PE.jpg?v=638323000700930000",
+        "category": "poleras"
+    },    {
+        "id":5,
+        "name":"BASIC HOODIE",
+        "price":65,
+        "image": "https://prettymaf.tiendada.com/api/scrooge/file/FL-48896D8D",
+        "category": "poleras"
+    },
+    {
+        "id":6,
+        "name":"VESTIDO COCTEL",
+        "price":130,
+        "image": "https://m.media-amazon.com/images/I/51gd9Eo-+TL._AC_UL1500_.jpg",
+        "category": "vestidos"
+    },
+    {
+        "id":7,
+        "name":"VESTIDO CON ESCOTE HALTER",
+        "price":40,
+        "image": "https://hmperu.vtexassets.com/arquivos/ids/3436418-483-725/Vestido-con-escote-halter---Negro---H-M-PE.jpg?v=638130047704330000",
+        "category": "vestidos"
+    },
+    {
+        "id":8,
+        "name":"Casaca Mujer Selena Marrón Roble",
+        "price":110,
+        "image": "https://topitop.vteximg.com.br/arquivos/ids/278386-1000-1248/1895448_1.jpg?v=638107829724000000",
+        "category": "casacas"
+    },
+    {
+        "id":9,
+        "name":"Casaca Mujer Aixa",
+        "price":80,
+        "image": "https://topitop.vteximg.com.br/arquivos/ids/279665-1000-1248/1932816_1.jpg?v=638120347283170000",
+        "category": "casacas"
+    },
+    {
+        "id":10,
+        "name":"CASACA TÉRMICA VARILITE",
+        "price":100,
+        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7ae2aa0208364e7aa111a805007f738b_9366/Casaca_Termica_Varilite_Negro_BQ1968_01_laydown.jpg",
+        "category": "casacas"
+    },
+    {
+        "id":11,
+        "name":"CASACA OSW",
+        "price":70,
+        "image": "https://win.com.pe/cdn/shop/products/casaca-osw-negro-casacas-win-310171_620x.jpg?v=1692326658",
+        "category": "casacas"
+    },
+    {
+        "id":12,
+        "name":"CASACA EN DENIM CORTA",
+        "price":120,
+        "image": "https://hmperu.vtexassets.com/arquivos/ids/4007514-483-725/Casaca-en-denim-corta---Azul-denim-claro---H-M-PE.jpg?v=638322725761170000",
+        "category": "casacas"
+    },
+    {
+        "id":13,
+        "name":"Vestido Mujer Indira Tencel",
+        "price":90,
+        "image": "https://topitop.vteximg.com.br/arquivos/ids/302860-1000-1248/1939117_1.jpg?v=638321427177970000",
+        "category": "vestidos"
+    },
+    {
+        "id":14,
+        "name":"Vestido Mujer Ibeth",
+        "price":80,
+        "image": "https://topitop.vteximg.com.br/arquivos/ids/298112-500-624/1954996_1.jpg?v=638300694833930000",
+        "category": "vestidos"
+    },
+    {
+        "id":15,
+        "name":"CARGO JEAN",
+        "price":75,
+        "image": "https://prettymaf.tiendada.com/api/scrooge/file/FL-4D3D286B",
+        "category": "pantalones"
+    },
+    {
+        "id":16,
+        "name":"RUSH JEAN",
+        "price":70,
+        "image": "https://prettymaf.tiendada.com/api/scrooge/file/FL-4D3D2A59",
+        "category": "pantalones"
+    },
+    {
+        "id":17,
+        "name":"SLOUCHY JEAN",
+        "price":70,
+        "image": "https://prettymaf.tiendada.com/api/scrooge/file/FL-489A3568",
+        "category": "pantalones"
+    }
+]
+}
