@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
+import axios from "axios"
 
 import "./ItemListContainer.css"
 import Item from "./Item"
@@ -8,11 +9,11 @@ const ItemListContainer =()=> {
 
   const [products, setProducts]=useState([])
 
-  useEffect(()=>{
-    fetch("http://localhost:3000/products")
-        .then((datos) => datos.json())
-        .then ((respuesta)=>setProducts(respuesta))
-  },[])
+  useEffect(() => {
+    axios.get('/products.json').then((res) => {
+      setProducts(res.data.products)
+    });
+  }, []);
 
   return (
     <div className="Container">

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-
+import axios from "axios"
 import Item from "../../components/ItemListContainer/Item"
 import BackHome from "../../components/BackHome/BackHome"
 
@@ -9,11 +9,11 @@ const CategoryPage = () => {
 
   let {categoryId}=useParams()
 
-  useEffect(()=>{
-    fetch("http://localhost:3000/products")
-        .then((datos) => datos.json())
-        .then ((respuesta)=>setProducts(respuesta))
-  },[])
+  useEffect(() => {
+    axios.get('/products.json').then((res) => {
+      setProducts(res.data.products)
+    });
+  }, [categoryId]);
 
   let filteredProducts=products.filter((product)=>{
     return product.category ==categoryId
